@@ -228,7 +228,7 @@ function! HighlightInit()
     call s:HighlightInitP()
 endfunction
 
-call :HighlightInit()
+call HighlightInit()
 
 
 command! -nargs=1 Highlight call Highlight(<q-args>)
